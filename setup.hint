@@ -1,0 +1,11 @@
+category: Games
+requires: cygwin libncurses8
+sdesc: "Clone of Macintosh game Galaxis"
+ldesc: "This is a UNIX-hosted, curses-based clone of the nifty little 
+Macintosh freeware game Galaxis.
+
+Lifeboats from a crippled interstellar liner are adrift in a starfield. 
+To find them, you can place probes that look in all eight compass 
+directions and tell you how many lifeboats they see.  Your 
+objective: find the lifeboats as quickly as possible, before the 
+stranded passengers run out of oxygen!"
