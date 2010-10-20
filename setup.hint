@@ -1,5 +1,5 @@
 category: Games
-requires: libncurses8
+requires: libncurses10
 sdesc: "Clone of Macintosh game Galaxis"
 ldesc: "This is a UNIX-hosted, curses-based clone of the nifty little 
 Macintosh freeware game Galaxis.

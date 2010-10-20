@@ -5,7 +5,7 @@ SRC_URI="http://www.catb.org/~esr/galaxis/${P}.tar.gz"
 src_compile() {
 	lndirs
 	cd ${B}
-	cygmake
+	cygmake CFLAGS="${CFLAGS} -DNDEBUG -I/usr/include/ncurses"
 }
 
 src_install() {

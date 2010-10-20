@@ -10,14 +10,14 @@ find the lifeboats as quickly as possible, before the stranded
 passengers run out of oxygen!
 
 Runtime requirements:
-  cygwin-1.5.25-15
-  libncurses8-5.5-3
+  cygwin-1.7.7-1
+  libncurses10-5.7-18
 
 Build requirements:
-  binutils-20080624-2
-  cygport-0.4.0-1
-  gcc-3.4.4-3
-  make-3.81-1
+  binutils-2.20.51-2
+  cygport-0.10.1-1
+  gcc4-core-4.5.0-1
+  make-3.81-2
 
 Canonical homepage:
   http://www.catb.org/~esr/galaxis/
@@ -25,34 +25,22 @@ Canonical homepage:
 ------------------------------------
 
 Build instructions:
-  unpack galaxis-1.7-X-src.tar.bz2
+  unpack galaxis-1.8-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./galaxis-1.7-X.cygport all
+  cygport ./galaxis-1.8-X.cygport all
 
 This will create:
-  /usr/src/galaxis-1.7-X-src.tar.bz2
-  /usr/src/galaxis-1.7-X.tar.bz2
+  /usr/src/galaxis-1.8-X-src.tar.bz2
+  /usr/src/galaxis-1.8-X.tar.bz2
 
 -------------------------------------------
 
-Files included in the binary package:
-
-  /usr/bin/galaxis.exe
-  /usr/share/doc/galaxis-1.7/COPYING
-  /usr/share/doc/galaxis-1.7/README
-  /usr/share/man/man6/galaxis.6.gz
-
-------------------
-
 Port Notes:
 
------ version 1.7-2 -----
-Rebuilt for ncurses-5.5.
-
------ version 1.7-1 -----
-Initial release for Cygwin.
+----- version 1.8-1 -----
+Initial release for Cygwin 1.7.
 
 
 Cygwin port maintained by:
